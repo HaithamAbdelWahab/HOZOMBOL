@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99C1AAA5B9710EF8E93295AA /* Pods_HOZOMBOL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFAC7BD086CF4181153BA06 /* Pods_HOZOMBOL.framework */; };
+		F40219C5223DF2A60077A496 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40219C4223DF2A60077A496 /* ChatCell.swift */; };
+		F40219C7223DFB270077A496 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40219C6223DFB270077A496 /* Message.swift */; };
 		F4298E6B222FAE5C0057D08D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4298E6A222FAE5C0057D08D /* AppDelegate.swift */; };
 		F4298E6D222FAE5C0057D08D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4298E6C222FAE5C0057D08D /* ViewController.swift */; };
 		F4298E70222FAE5C0057D08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4298E6E222FAE5C0057D08D /* Main.storyboard */; };
 		F4298E72222FAE5D0057D08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4298E71222FAE5D0057D08D /* Assets.xcassets */; };
 		F4298E75222FAE5D0057D08D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4298E73222FAE5D0057D08D /* LaunchScreen.storyboard */; };
+		F4298E8022303C2F0057D08D /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4298E7F22303C2F0057D08D /* FormCell.swift */; };
+		F4298E8222304F640057D08D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4298E8122304F640057D08D /* GoogleService-Info.plist */; };
+		F44AFAA42237DD9A009D4C1B /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AFAA32237DD9A009D4C1B /* RoomsViewController.swift */; };
+		F44AFAA72238E3D2009D4C1B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AFAA62238E3D2009D4C1B /* Room.swift */; };
+		F44AFAA92239DB69009D4C1B /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AFAA82239DB69009D4C1B /* ChatRoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14E5739AA7EAC696602DFC27 /* Pods-HOZOMBOL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOZOMBOL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HOZOMBOL/Pods-HOZOMBOL.debug.xcconfig"; sourceTree = "<group>"; };
+		DFFAC7BD086CF4181153BA06 /* Pods_HOZOMBOL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HOZOMBOL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EB6B131AB0917827209F1E /* Pods-HOZOMBOL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HOZOMBOL.release.xcconfig"; path = "Pods/Target Support Files/Pods-HOZOMBOL/Pods-HOZOMBOL.release.xcconfig"; sourceTree = "<group>"; };
+		F40219C4223DF2A60077A496 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		F40219C6223DFB270077A496 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		F4298E67222FAE5C0057D08D /* HOZOMBOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HOZOMBOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4298E6A222FAE5C0057D08D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4298E6C222FAE5C0057D08D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,11 @@
 		F4298E71222FAE5D0057D08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4298E74222FAE5D0057D08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4298E76222FAE5D0057D08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4298E7F22303C2F0057D08D /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		F4298E8122304F640057D08D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F44AFAA32237DD9A009D4C1B /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		F44AFAA62238E3D2009D4C1B /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		F44AFAA82239DB69009D4C1B /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C1AAA5B9710EF8E93295AA /* Pods_HOZOMBOL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD12712B1D3499C84E6AB80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFFAC7BD086CF4181153BA06 /* Pods_HOZOMBOL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		372252CBFF646F1E1AEB4D49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14E5739AA7EAC696602DFC27 /* Pods-HOZOMBOL.debug.xcconfig */,
+				E0EB6B131AB0917827209F1E /* Pods-HOZOMBOL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F4298E5E222FAE5C0057D08D = {
 			isa = PBXGroup;
 			children = (
 				F4298E69222FAE5C0057D08D /* HOZOMBOL */,
 				F4298E68222FAE5C0057D08D /* Products */,
+				372252CBFF646F1E1AEB4D49 /* Pods */,
+				0CD12712B1D3499C84E6AB80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +95,34 @@
 				F4298E6A222FAE5C0057D08D /* AppDelegate.swift */,
 				F4298E6C222FAE5C0057D08D /* ViewController.swift */,
 				F4298E6E222FAE5C0057D08D /* Main.storyboard */,
+				F40219C4223DF2A60077A496 /* ChatCell.swift */,
+				F4298E7F22303C2F0057D08D /* FormCell.swift */,
+				F44AFAA82239DB69009D4C1B /* ChatRoomViewController.swift */,
+				F44AFAA32237DD9A009D4C1B /* RoomsViewController.swift */,
+				F44AFAA52238E369009D4C1B /* Models */,
+				F4298E7E222FAEEE0057D08D /* resources */,
 				F4298E71222FAE5D0057D08D /* Assets.xcassets */,
 				F4298E73222FAE5D0057D08D /* LaunchScreen.storyboard */,
 				F4298E76222FAE5D0057D08D /* Info.plist */,
 			);
 			path = HOZOMBOL;
+			sourceTree = "<group>";
+		};
+		F4298E7E222FAEEE0057D08D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4298E8122304F640057D08D /* GoogleService-Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F44AFAA52238E369009D4C1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F40219C6223DFB270077A496 /* Message.swift */,
+				F44AFAA62238E3D2009D4C1B /* Room.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4298E79222FAE5D0057D08D /* Build configuration list for PBXNativeTarget "HOZOMBOL" */;
 			buildPhases = (
+				CD6496A9C0E8E2BE8502524F /* [CP] Check Pods Manifest.lock */,
 				F4298E63222FAE5C0057D08D /* Sources */,
 				F4298E64222FAE5C0057D08D /* Frameworks */,
 				F4298E65222FAE5C0057D08D /* Resources */,
+				183C7B9D03FD6F614AFE7366 /* [CP] Embed Pods Frameworks */,
+				5AEDBDC7D04F3895BB8B062C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,11 +188,72 @@
 			files = (
 				F4298E75222FAE5D0057D08D /* LaunchScreen.storyboard in Resources */,
 				F4298E72222FAE5D0057D08D /* Assets.xcassets in Resources */,
+				F4298E8222304F640057D08D /* GoogleService-Info.plist in Resources */,
 				F4298E70222FAE5C0057D08D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183C7B9D03FD6F614AFE7366 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HOZOMBOL/Pods-HOZOMBOL-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HOZOMBOL/Pods-HOZOMBOL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AEDBDC7D04F3895BB8B062C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HOZOMBOL/Pods-HOZOMBOL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6496A9C0E8E2BE8502524F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HOZOMBOL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4298E63222FAE5C0057D08D /* Sources */ = {
@@ -136,7 +261,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4298E6D222FAE5C0057D08D /* ViewController.swift in Sources */,
+				F4298E8022303C2F0057D08D /* FormCell.swift in Sources */,
 				F4298E6B222FAE5C0057D08D /* AppDelegate.swift in Sources */,
+				F44AFAA42237DD9A009D4C1B /* RoomsViewController.swift in Sources */,
+				F40219C5223DF2A60077A496 /* ChatCell.swift in Sources */,
+				F40219C7223DFB270077A496 /* Message.swift in Sources */,
+				F44AFAA72238E3D2009D4C1B /* Room.swift in Sources */,
+				F44AFAA92239DB69009D4C1B /* ChatRoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +411,7 @@
 		};
 		F4298E7A222FAE5D0057D08D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E5739AA7EAC696602DFC27 /* Pods-HOZOMBOL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +430,7 @@
 		};
 		F4298E7B222FAE5D0057D08D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EB6B131AB0917827209F1E /* Pods-HOZOMBOL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
